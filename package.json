@@ -1,6 +1,6 @@
 {
   "name": "react-component-library-starter-pack",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a simple component library intended to be used as a starter pack for any new React component library",
   "main": "dist/cjs/index.js",
   "files": [
@@ -58,7 +58,7 @@
     "loose-envify": "^1.4.0",
     "magic-string": "^0.30.5",
     "minimatch": "^5.1.6",
-        "once": "^1.4.0",
+    "once": "^1.4.0",
     "path-parse": "^1.0.7",
     "picomatch": "^2.3.1",
     "randombytes": "^2.1.0",
