@@ -11,7 +11,7 @@ This is a simple react component library intended to be used as a starter pack f
 
 Using npm:
 
-`npm install react-component-library-starter-pack`
+`npm install braid-extension-component-library`
 
 ## Usage
 
@@ -24,8 +24,6 @@ const Example = () => {
     <Button>Button</Button>
 }
 ```
-
-An example of the react-component-library-starter-pack implementation using Node v20, React v16 on Replit can be found [here](https://replit.com/@caitlyn1994/react-component-library-starter-pack#README.md)
 
 
 

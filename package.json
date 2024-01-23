@@ -1,6 +1,6 @@
 {
-  "name": "react-component-library-starter-pack",
-  "version": "1.0.1",
+  "name": "braid-extension-component-library",
+  "version": "1.0.0",
   "description": "This is a simple component library intended to be used as a starter pack for any new React component library",
   "main": "dist/cjs/index.js",
   "files": [
@@ -75,7 +75,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/19Caitlyn94/react-component-library-starter-pack.git"
+    "url": "git+https://github.com/19Caitlyn94/braid-extension-component-library.git"
   },
   "keywords": [
     "react",
@@ -86,7 +86,7 @@
     "pack"
   ],
   "bugs": {
-    "url": "https://github.com/19Caitlyn94/react-component-library-starter-pack/issues"
+    "url": "https://github.com/19Caitlyn94/braid-extension-component-library/issues"
   },
-  "homepage": "https://github.com/19Caitlyn94/react-component-library-starter-pack#npm_readme"
+  "homepage": "https://github.com/19Caitlyn94/braid-extension-component-library#npm_readme"
 }
