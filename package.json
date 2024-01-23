@@ -1,7 +1,7 @@
 {
-  "name": "component-library-starter-pack",
-  "version": "1.0.4",
-  "description": "This is a simple component library intended to be used as a starter pack for any new component library",
+  "name": "react-component-library-starter-pack",
+  "version": "1.0.0",
+  "description": "This is a simple component library intended to be used as a starter pack for any new React component library",
   "main": "dist/cjs/index.js",
   "files": [
     "dist"
@@ -25,9 +25,6 @@
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "tslib": "^2.6.2",
     "typescript": "^5.3.3"
-  },
-  "peerDependencies": {
-    "react": "^16.14.0"
   },
   "dependencies": {
     "acorn": "^8.11.2",
@@ -91,5 +88,5 @@
   "bugs": {
     "url": "https://github.com/19Caitlyn94/react-component-library-starter-pack/issues"
   },
-  "homepage": "https://github.com/19Caitlyn94/react-component-library-starter-pack#readme"
+  "homepage": "https://github.com/19Caitlyn94/react-component-library-starter-pack#npm_readme"
 }

@@ -1,4 +1,4 @@
-This is a simple react component library intended to be used as a starter pack for any new component library - built using React, Typescript and Rollup. 
+This is a simple react component library intended to be used as a starter pack for any new component library - built using Typescript and Rollup. 
 
 ## Prerequisites
 
@@ -7,34 +7,15 @@ This is a simple react component library intended to be used as a starter pack f
 - react v16.14.0
 - an account on https://www.npmjs.com/
 
+## Install
 
-## Getting started 
+Using npm:
 
-1. Fork this repo and rename the folder to the name of your project. 
-2. Initialise your project by running `git init` in your project directory. Give your component library a name, version number, your new github repo url (if ), keywords and description. From this point on, wherever 'react-component-library' is referenced in this readme, swap it out with your component library name. 
-2. Make sure you are running the right node and package versions locally and in your project.
-3. Install node modules `npm i`
-4. Bundle your project with rollup `npm run rollup`
-
-#### Update this README
-
-Update this README with your own package specifications and guide
-
-#### Publish your project
-
-`npm adduser` to create account or login to npmjs.com
-`npm publish` to publish your changes
-
-#### Make changes and republish
-
-1. After making changes to your project, change the version number in your package.json, run `npm i` to update your package-lock.json and then `npm run rollup` to bundle your project
-2. Run `npm publish` to publish your changes
-3. Check that it has updated on https://www.npmjs.com/package/{your-package-name}?activeTab=versions 
+`npm install react-component-library-starter-pack`
 
 ## Usage
 
-1. Once published, install your new component library into your react project. In the project directory. eg. `npm i react-component-library`
-2. Check if it's working - import the button component into your project 
+Import a component into your project 
 
 ```
 import { Button } from 'react-component-library'
@@ -44,9 +25,7 @@ const Example = () => {
 }
 ```
 
-A working example of the component-library-starter-pack v1.0.0 implementation using Node v20, React v18 on Replit can be found [here](https://replit.com/@caitlyn1994/component-library-starter-pack100#README.md)
-
-A working example of the component-library-starter-pack v1.0.4 implementation using Node v20, React v16.14.0 on Replit can be found [here](https://replit.com/@caitlyn1994/component-library-starter-pack104#src/index.jsx)
+An example of the react-component-library-starter-pack implementation using Node v20, React v16 on Replit can be found [here](https://replit.com/@caitlyn1994/react-component-library-starter-pack#README.md)
 
 
 
