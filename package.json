@@ -1,6 +1,6 @@
 {
   "name": "braid-extension-component-library",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a simple component library intended as an extension of the Braid Design System",
   "main": "dist/cjs/index.js",
   "files": [
