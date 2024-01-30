@@ -1,7 +1,7 @@
 import React, { FC, ReactNode } from 'react'
 
 interface Props{
-  children: ReactNode | ReactNode[]
+  children: ReactNode
 }
 
 const Button:FC<Props> = ({children}) => {

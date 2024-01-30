@@ -2,7 +2,7 @@ import React, { FC, ReactNode } from 'react'
 import { Text } from 'braid-design-system';
 
 interface Props{
-  children: ReactNode | ReactNode[]
+  children: ReactNode
 }
 
 const BraidText:FC<Props> = ({children}) => {
