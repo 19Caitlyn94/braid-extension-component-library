@@ -1,7 +1,7 @@
 {
   "name": "braid-extension-component-library",
   "version": "1.0.0",
-  "description": "This is a simple component library intended to be used as a starter pack for any new React component library",
+  "description": "This is a simple component library intended as an extension of the Braid Design System",
   "main": "dist/cjs/index.js",
   "files": [
     "dist"
@@ -19,7 +19,6 @@
     "@rollup/plugin-terser": "^0.4.4",
     "@rollup/plugin-typescript": "^11.1.5",
     "@types/react": "^18.2.45",
-    "react": "^16.14.0",
     "rollup": "^4.9.1",
     "rollup-plugin-dts": "^6.1.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
@@ -31,6 +30,7 @@
     "ansi-styles": "^3.2.1",
     "balanced-match": "^1.0.2",
     "brace-expansion": "^2.0.1",
+    "braid-design-system": "^32.15.1",
     "buffer-from": "^1.1.2",
     "builtin-modules": "^3.3.0",
     "chalk": "^2.4.2",
@@ -62,6 +62,8 @@
     "path-parse": "^1.0.7",
     "picomatch": "^2.3.1",
     "randombytes": "^2.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "resolve": "^1.22.8",
     "safe-buffer": "^5.2.1",
     "serialize-javascript": "^6.0.1",
