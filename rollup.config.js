@@ -15,7 +15,7 @@ export default [
     output: [
       {
         file: packageJson.main,
-        format: 'esm',
+        format: 'cjs',
         sourcemap: true,
       },
     ],
