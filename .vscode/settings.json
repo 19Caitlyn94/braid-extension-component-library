@@ -9,7 +9,7 @@
   "files.exclude": {
     "**/.DS_Store": true,
     "**/node_modules": true,
-    "**/dist/**": true,
+    // "**/dist/**": true,
   },
   "files.autoSave": "onFocusChange"
 }

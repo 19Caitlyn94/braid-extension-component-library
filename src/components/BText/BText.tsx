@@ -5,10 +5,10 @@ interface Props{
   children: ReactNode
 }
 
-const BraidText:FC<Props> = ({children}) => {
+const BText:FC<Props> = ({children}) => {
   return (
     <Text>{children}</Text>
   )
 }
 
-export default BraidText
+export default BText
