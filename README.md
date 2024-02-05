@@ -1,40 +1,40 @@
-This is a simple component library intended as an extension of the Braid Design System - built using React, Typescript and Rollup.
+# test-braid-extension
 
-## Prerequisites
+This project is powered by [sku](https://github.com/seek-oss/sku), [braid](https://github.com/seek-oss/braid-design-system) and built with [React](https://facebook.github.io/react).
 
-- node v20.10.0 - if using nvm run `nvm install 20` and `nvm use 20`
-- npm v10.2.5 - `brew install npm` with Homebrew on Mac 
-- react v17 and react-dom v17 (Braid requires react@^17)
-- an account on https://www.npmjs.com/
+## Getting Started
 
-## Install
+First of all, make sure you&#39;ve installed [npm](https://docs.npmjs.com/cli/v8/configuring-npm/install).
 
-Using npm:
+Then, install dependencies:
 
-`npm install braid-extension-component-library`
-
-## Usage
-
-Wrap your project in BraidProvider
-```
-import { BraidProvider } from 'braid-design-system';
-
-export default () => (
-  <BraidProvider>
-    <App />
-  </BraidProvider>
-);
+```sh
+$ npm i
 ```
 
-Import a component into your project 
+## Workflow
 
-```
-import { Button } from 'braid-extension-component-library'
+Start a local development server:
 
-const Example = () => {
-    <Button>Button</Button>
-}
+```bash
+$ npm run start
 ```
 
+Run unit tests:
 
+```bash
+$ npm run test
+```
 
+Lint and format code:
+
+```bash
+$ npm run lint
+$ npm run format
+```
+
+Build assets for production:
+
+```bash
+$ npm run build
+```

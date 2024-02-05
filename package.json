@@ -1,94 +1,25 @@
 {
-  "name": "braid-extension-component-library",
-  "version": "1.0.4",
-  "description": "This is a simple component library intended as an extension of the Braid Design System",
-  "main": "dist/cjs/index.js",
-  "files": [
-    "dist"
-  ],
-  "types": "dist/index.d.ts",
+  "name": "test-braid-extension",
+  "version": "0.1.0",
+
   "scripts": {
-    "rollup": "rollup -c --bundleConfigAsCjs"
-  },
-  "author": "Caitlyn Fowkes",
-  "license": "MIT",
-  "type": "commonjs",
-  "devDependencies": {
-    "@rollup/plugin-commonjs": "^25.0.7",
-    "@rollup/plugin-node-resolve": "^15.2.3",
-    "@rollup/plugin-terser": "^0.4.4",
-    "@rollup/plugin-typescript": "^11.1.5",
-    "@types/react": "^18.2.45",
-    "rollup": "^4.9.1",
-    "rollup-plugin-dts": "^6.1.0",
-    "rollup-plugin-peer-deps-external": "^2.2.4",
-    "tslib": "^2.6.2",
-    "typescript": "^5.3.3"
+    "start": "sku start",
+    "test": "sku test",
+    "build": "sku build",
+    "serve": "sku serve",
+    "lint": "sku lint",
+    "format": "sku format"
   },
   "dependencies": {
-    "acorn": "^8.11.2",
-    "ansi-styles": "^3.2.1",
-    "balanced-match": "^1.0.2",
-    "brace-expansion": "^2.0.1",
-    "braid-design-system": "^32.15.1",
-    "buffer-from": "^1.1.2",
-    "builtin-modules": "^3.3.0",
-    "chalk": "^2.4.2",
-    "color-convert": "^1.9.3",
-    "color-name": "^1.1.3",
-    "commander": "^2.20.3",
-    "commondir": "^1.0.1",
-    "csstype": "^3.1.3",
-    "deepmerge": "^4.3.1",
-    "escape-string-regexp": "^1.0.5",
-    "estree-walker": "^2.0.2",
-    "fs.realpath": "^1.0.0",
-    "fsevents": "^2.3.3",
-    "function-bind": "^1.1.2",
-    "glob": "^8.1.0",
-    "has-flag": "^3.0.0",
-    "hasown": "^2.0.0",
-    "inflight": "^1.0.6",
-    "inherits": "^2.0.4",
-    "is-builtin-module": "^3.2.1",
-    "is-core-module": "^2.13.1",
-    "is-module": "^1.0.0",
-    "is-reference": "^1.2.1",
-    "js-tokens": "^4.0.0",
-    "loose-envify": "^1.4.0",
-    "magic-string": "^0.30.5",
-    "minimatch": "^5.1.6",
-    "once": "^1.4.0",
-    "path-parse": "^1.0.7",
-    "picomatch": "^2.3.1",
-    "randombytes": "^2.1.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "resolve": "^1.22.8",
-    "safe-buffer": "^5.2.1",
-    "serialize-javascript": "^6.0.1",
-    "smob": "^1.4.1",
-    "source-map": "^0.6.1",
-    "source-map-support": "^0.5.21",
-    "supports-color": "^5.5.0",
-    "supports-preserve-symlinks-flag": "^1.0.0",
-    "terser": "^5.26.0",
-    "wrappy": "^1.0.2"
+    "braid-design-system": "32.15.1",
+    "core-js": "^2.6.12",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/19Caitlyn94/braid-extension-component-library.git"
-  },
-  "keywords": [
-    "react",
-    "typescript",
-    "component",
-    "library",
-    "starter",
-    "pack"
-  ],
-  "bugs": {
-    "url": "https://github.com/19Caitlyn94/braid-extension-component-library/issues"
-  },
-  "homepage": "https://github.com/19Caitlyn94/braid-extension-component-library#npm_readme"
+  "devDependencies": {
+    "@types/react": "^18.2.51",
+    "@types/react-dom": "^18.2.18",
+    "@vanilla-extract/css": "^1.14.1",
+    "sku": "^12.4.10"
+  }
 }

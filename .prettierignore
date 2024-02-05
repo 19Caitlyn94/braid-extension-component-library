@@ -1,14 +1,8 @@
-node_modules
-npm-debug.log
-
 # managed by sku
-.eslintcache
-.eslintrc
-.prettierrc
+*.less.d.ts
 .storybook/main.js
 coverage/
 dist-storybook/
 dist/
 report/
-tsconfig.json
 # end managed by sku
