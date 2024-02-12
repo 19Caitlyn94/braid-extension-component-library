@@ -1,6 +1,6 @@
 {
   "name": "braid-extension-component-library",
-  "version": "1.0.4",
+  "version": "1.0.0-test-without-braid",
   "description": "This is a simple component library intended as an extension of the Braid Design System",
   "main": "dist/cjs/index.js",
   "files": [
@@ -30,7 +30,6 @@
     "ansi-styles": "^3.2.1",
     "balanced-match": "^1.0.2",
     "brace-expansion": "^2.0.1",
-    "braid-design-system": "^32.15.1",
     "buffer-from": "^1.1.2",
     "builtin-modules": "^3.3.0",
     "chalk": "^2.4.2",
